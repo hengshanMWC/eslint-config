@@ -1,0 +1,31 @@
+{
+  "name": "@abmao/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "mawencan",
+  "bugs": {
+    "url": "https://github.com/hengshanMWC/eslint-config/issues"
+  },
+  "homepage": "https://github.com/hengshanMWC/eslint-config/packages/typescript/#readme",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@abmao/eslint-config-basic": "^0.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  }
+}
