@@ -1,5 +1,6 @@
 {
   "name": "@abmao/eslint-config-monorepo",
+  "version": "0.0.0",
   "private": true,
   "license": "MIT",
   "author": "mawencan",
