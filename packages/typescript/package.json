@@ -15,5 +15,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0"
-  }
+  },
+  "gitHead": "ddfe3c7b42582c063719c1aed1da88e4155f60f2"
 }
