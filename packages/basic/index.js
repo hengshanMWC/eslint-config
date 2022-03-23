@@ -197,6 +197,8 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
+    // Suggestions
+    'prefer-regex-literals': 'off',
   },
   parserOptions: {
     ecmaVersion: 8,
