@@ -143,7 +143,7 @@ module.exports = {
     'func-call-spacing': ['error', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'max-len': ['error', {
-      code: 80,
+      code: 120,
       tabWidth: 2,
     }],
     'new-cap': 'error',
@@ -168,6 +168,7 @@ module.exports = {
     'no-cond-assign': ['error', 'always'],
     'no-debugger': 'error',
     'no-extra-bind': 'error',
+    'no-fallthrough': "off",
     'no-loop-func': 'error',
     'no-invalid-this': 'error',
     'no-return-await': 'error',
