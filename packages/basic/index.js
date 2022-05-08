@@ -168,7 +168,7 @@ module.exports = {
     'no-cond-assign': ['error', 'always'],
     'no-debugger': 'error',
     'no-extra-bind': 'error',
-    'no-fallthrough': "off",
+    'no-fallthrough': 'off',
     'no-loop-func': 'error',
     'no-invalid-this': 'error',
     'no-return-await': 'error',
