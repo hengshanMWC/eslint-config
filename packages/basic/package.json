@@ -1,8 +1,10 @@
 {
   "name": "@abmao/eslint-config-basic",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "eslint"
+  ],
   "license": "MIT",
   "author": "mawencan",
   "bugs": {

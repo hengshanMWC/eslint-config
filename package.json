@@ -1,13 +1,14 @@
 {
   "name": "@abmao/eslint-config-monorepo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "license": "MIT",
   "author": "mawencan",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
-    "release": "lerna publish --conventional-commits"
+    "pkgs:version": "pkgs version",
+    "pkgs:publish": "pkgs publish"
   },
   "devDependencies": {
     "@abmao/eslint-config": "*",
