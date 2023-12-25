@@ -21,8 +21,9 @@
   "peerDependencies": {
     "eslint": ">=8.41.0"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "@antfu/eslint-config-basic": "^0.43.1"
+  },
   "publishConfig": {
     "access": "public"
   }
