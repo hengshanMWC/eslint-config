@@ -3,6 +3,7 @@ const { isPackageExists } = require('local-pkg')
 const TS = isPackageExists('typescript')
 module.exports = {
   extends: [
+    '@antfu/eslint-config-react',
     TS
       ? '@abmao/eslint-config-ts'
       : '@abmao/eslint-config-basic',

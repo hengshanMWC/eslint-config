@@ -22,11 +22,11 @@
     "eslint": ">=8.41.0"
   },
   "dependencies": {
-    "local-pkg": "^0.4.3",
     "@abmao/eslint-config-basic": "workspace:*",
-    "@abmao/eslint-config-ts": "workspace:*"
+    "@abmao/eslint-config-ts": "workspace:*",
+    "@antfu/eslint-config-react": "^0.43.1",
+    "local-pkg": "^0.4.3"
   },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public"
   }
