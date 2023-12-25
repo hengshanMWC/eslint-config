@@ -24,7 +24,6 @@
   "dependencies": {
     "@abmao/eslint-config-basic": "workspace:*",
     "@abmao/eslint-config-ts": "workspace:*",
-    "@antfu/eslint-config-vue": "^0.43.1",
     "local-pkg": "^0.4.3"
   },
   "publishConfig": {

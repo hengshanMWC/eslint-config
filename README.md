@@ -1,1 +1,1 @@
-[antfu](https://github.com/antfu) based [slint-config](https://github.com/antfu/eslint-config)
+配合antfu eslint，保留个人习惯

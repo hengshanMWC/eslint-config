@@ -1,7 +1,4 @@
 module.exports = {
-  extends: [
-    '@antfu/eslint-config-basic',
-  ],
   rules: {
     'no-console': 'off',
     curly: 'off',
@@ -18,6 +15,7 @@ module.exports = {
     '@stylistic/ts/brace-style': 'off',
     'html/singleline-max-attributes': 'off',
     '@stylistic/js/no-tabs': 'off',
+    '@stylistic/js/brace-style': 'off',
     'antfu/if-newline': 'off',
   },
 }
