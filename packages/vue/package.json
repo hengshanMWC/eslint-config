@@ -2,29 +2,32 @@
   "name": "@abmao/eslint-config-vue",
   "version": "1.0.1",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "eslint"
+  ],
   "license": "MIT",
   "author": "mawencan",
-  "main": "index.js",
   "bugs": {
     "url": "https://github.com/hengshanMWC/eslint-config/issues"
   },
-  "homepage": "https://github.com/hengshanMWC/eslint-config/packages/vue/#readme",
+  "homepage": "https://github.com/hengshanMWC/eslint-config/packages/typescript/#readme",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
+  "scripts": {
+    "lint": "eslint . --config=index.js"
   },
-  "publishConfig": {
-    "access": "public"
+  "peerDependencies": {
+    "eslint": ">=8.41.0"
   },
   "dependencies": {
-    "@abmao/eslint-config-ts": "^1.0.0",
-    "eslint-plugin-vue": "^8.5.0"
+    "local-pkg": "^0.4.3",
+    "@abmao/eslint-config-basic": "^1.0.0",
+    "@abmao/eslint-config-ts": "^1.0.0"
   },
-  "devDependencies": {
-    "eslint": "^8.10.0"
-  },
-  "gitHead": "9568b1a7aec158b1838faffec08b144e033983a0"
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }

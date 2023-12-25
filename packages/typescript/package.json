@@ -2,7 +2,9 @@
   "name": "@abmao/eslint-config-ts",
   "version": "1.0.1",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "eslint"
+  ],
   "license": "MIT",
   "author": "mawencan",
   "bugs": {
@@ -13,20 +15,18 @@
   "files": [
     "index.js"
   ],
-  "publishConfig": {
-    "access": "public"
+  "scripts": {
+    "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0",
+    "eslint": ">=8.41.0",
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@abmao/eslint-config-basic": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.13.0"
+    "@abmao/eslint-config-basic": "^1.0.0"
   },
-  "devDependencies": {
-    "eslint": "^8.10.0"
-  },
-  "gitHead": "9568b1a7aec158b1838faffec08b144e033983a0"
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }

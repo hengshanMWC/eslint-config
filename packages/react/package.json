@@ -2,13 +2,15 @@
   "name": "@abmao/eslint-config-react",
   "version": "1.0.1",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "eslint"
+  ],
   "license": "MIT",
   "author": "mawencan",
   "bugs": {
     "url": "https://github.com/hengshanMWC/eslint-config/issues"
   },
-  "homepage": "https://github.com/hengshanMWC/eslint-config/packages/react/#readme",
+  "homepage": "https://github.com/hengshanMWC/eslint-config/packages/typescript/#readme",
   "main": "index.js",
   "files": [
     "index.js"
@@ -17,19 +19,15 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "eslint": ">=8.41.0"
   },
   "dependencies": {
-    "@abmao/eslint-config-ts": "^1.0.0",
-    "eslint-plugin-react": "^7.29.3"
+    "local-pkg": "^0.4.3",
+    "@abmao/eslint-config-basic": "^1.0.0",
+    "@abmao/eslint-config-ts": "^1.0.0"
   },
-  "devDependencies": {
-    "eslint": "^8.10.0",
-    "react": "^17.0.2",
-    "typescript": "^4.6.2"
-  },
-  "gitHead": "9568b1a7aec158b1838faffec08b144e033983a0"
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }

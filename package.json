@@ -10,8 +10,7 @@
     "release": "pkgs version && pkgs publish"
   },
   "devDependencies": {
-    "@abmao/eslint-config": "*",
-    "@abmao/pkgs": "^0.0.8",
+    "@abmao/pkgs": "^2.3.3",
     "eslint": "^8.10.0",
     "typescript": "^4.6.2"
   }
