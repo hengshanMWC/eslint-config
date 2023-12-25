@@ -21,10 +21,10 @@ importers:
   packages/all:
     dependencies:
       '@abmao/eslint-config-react':
-        specifier: ^1.0.0
+        specifier: 'workspace:* '
         version: link:../react
       '@abmao/eslint-config-vue':
-        specifier: ^1.0.0
+        specifier: 'workspace:* '
         version: link:../vue
       eslint:
         specifier: '>=8.41.0'
@@ -39,10 +39,10 @@ importers:
   packages/react:
     dependencies:
       '@abmao/eslint-config-basic':
-        specifier: ^1.0.0
+        specifier: 'workspace:* '
         version: link:../basic
       '@abmao/eslint-config-ts':
-        specifier: ^1.0.0
+        specifier: 'workspace:* '
         version: link:../typescript
       eslint:
         specifier: '>=8.41.0'
@@ -54,7 +54,7 @@ importers:
   packages/typescript:
     dependencies:
       '@abmao/eslint-config-basic':
-        specifier: ^1.0.0
+        specifier: 'workspace:* '
         version: link:../basic
       eslint:
         specifier: '>=8.41.0'
@@ -66,10 +66,10 @@ importers:
   packages/vue:
     dependencies:
       '@abmao/eslint-config-basic':
-        specifier: ^1.0.0
+        specifier: 'workspace:* '
         version: link:../basic
       '@abmao/eslint-config-ts':
-        specifier: ^1.0.0
+        specifier: 'workspace:* '
         version: link:../typescript
       eslint:
         specifier: '>=8.41.0'

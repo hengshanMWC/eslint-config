@@ -22,8 +22,8 @@
     "eslint": ">=8.41.0"
   },
   "dependencies": {
-    "@abmao/eslint-config-react": "^1.0.0",
-    "@abmao/eslint-config-vue": "^1.0.0"
+    "@abmao/eslint-config-react": "workspace:* ",
+    "@abmao/eslint-config-vue": "workspace:* "
   },
   "devDependencies": {},
   "publishConfig": {
