@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    '@abmao/eslint-config-basic',
     '@antfu/eslint-config-ts',
+    '@abmao/eslint-config-basic',
   ],
   rules: {
     '@typescript-eslint/ban-ts-comment': 'off',
