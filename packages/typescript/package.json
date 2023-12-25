@@ -23,7 +23,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@abmao/eslint-config-basic": "workspace:* "
+    "@abmao/eslint-config-basic": "workspace:*"
   },
   "devDependencies": {},
   "publishConfig": {

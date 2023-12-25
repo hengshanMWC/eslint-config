@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "local-pkg": "^0.4.3",
-    "@abmao/eslint-config-basic": "workspace:* ",
-    "@abmao/eslint-config-ts": "workspace:* "
+    "@abmao/eslint-config-basic": "workspace:*",
+    "@abmao/eslint-config-ts": "workspace:*"
   },
   "devDependencies": {},
   "publishConfig": {
