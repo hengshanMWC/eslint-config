@@ -16,6 +16,7 @@ module.exports = {
     'html/singleline-max-attributes': 'off',
     '@stylistic/js/no-tabs': 'off',
     '@stylistic/js/brace-style': 'off',
+    '@stylistic/js/operator-linebreak': 'off',
     'antfu/if-newline': 'off',
   },
 }
