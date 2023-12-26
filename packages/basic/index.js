@@ -17,6 +17,7 @@ module.exports = {
     '@stylistic/js/no-tabs': 'off',
     '@stylistic/js/brace-style': 'off',
     '@stylistic/js/operator-linebreak': 'off',
+    '@stylistic/ts/indent': 'off',
     'antfu/if-newline': 'off',
   },
 }
